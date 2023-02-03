@@ -7,5 +7,5 @@ use Request\Request;
 
 interface KernelInterface
 {
-    public function handle(Request $request);
+    public function handle(Request $request): void;
 }
