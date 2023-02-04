@@ -61,6 +61,5 @@ class Container
             file_put_contents('dependencies.php', "<?php \n");
             file_put_contents('dependencies.php', 'return ' . var_export($this->map, true) . ';', FILE_APPEND);
         }
-        die('asd');
     }
 }
